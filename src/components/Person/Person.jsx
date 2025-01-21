@@ -6,7 +6,7 @@ export const alex = {
   partnerName: 'Maksym',
 };
 export const Person = ({ person }) => {
-  const { name, age, sex, isMarried, partnerName } = { ...person };
+  const { name, age, sex, isMarried, partnerName } = person;
 
   return (
     <section className="Person">
